@@ -213,6 +213,101 @@ body {
     font-size: 12px;
 }
 
+/*For screens of 980px width or less*/
+@media screen and (max-width: 980px) {
+    .Header {
+        float: left;
+        width: 100%;
+    }
+    
+    .Name {
+        float: left;
+        width: 100%
+    }
+
+    .NavBar a {
+        width: 100%;
+    } 
+
+    .AboutMe, .ContactMe,{
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 1px;
+        width: 840px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        line-height: 30px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-top: 10px;
+        margin-top: 35px;
+        overflow: auto;
+    }
+
+    .box-set {
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 1px;
+        width: 500px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        line-height: 30px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-top: 10px;
+        margin-top: 35px;
+        overflow: auto;
+    }
+
+    .ContactName, .ContactEmail {
+        width: 840px;
+    }
+    
+    .ContactMessage {
+        width: 840px;
+        height: 200px;
+    }
+
+    .Project1 {
+        width: 220px;
+        float: left;
+        position: relative;
+    }
+
+    .Project2 {
+        width: 220px;
+        float: left;
+        position: relative;
+        top: 200px;
+        left: -220px;
+    }
+
+    .Project3 {
+        width: 220px;
+        float: left;
+        position: relative;
+        top: 230px;
+        left: 0px;
+    }
+
+    .Project4 {
+        width: 220;
+        float: left;
+        position: relative;
+        top: 420px;
+        left: -220px;
+    }
+
+    .Project5 {
+        width: 220;
+        float: left;
+        position: relative;
+        top: 440px
+    }
+}
+
 /*For screens of 768px width or less*/
 @media screen and (max-width: 768px) {
     .Header {
