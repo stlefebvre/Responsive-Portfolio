@@ -391,17 +391,24 @@ body {
 /*For screens of 640px width or less*/
 @media screen and (max-width: 640px) {
     .Header {
-        float: left;
         width: 100%;
     }
     
     .Name {
-        float: left;
-        width: 100%
+        display: block;
+        max-width: 100%;
+        padding: 5px;
+        padding-right: 35px;
+        padding-left: 35px;
+        position: relative;
+        bottom: 0%;
+        left: 0px;
     }
 
-    .NavBar a {
+    .NavBar {
+        display: block;
         width: 100%;
+        position: static;
     } 
 
     .AboutMe, .ContactMe, .box-set {
