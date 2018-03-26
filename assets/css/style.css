@@ -216,18 +216,19 @@ body {
 /*For screens of 980px width or less*/
 @media screen and (max-width: 980px) {
     .Header {
-        float: left;
         width: 100%;
     }
     
     .Name {
-        float: left;
-        width: 100%
+        display: block;
+        max-width: 21%;
+        padding: 5px;
+        padding-right: 35px;
+        padding-left: 35px;
+        position: relative;
+        bottom: 0%;
+        left: 0px;
     }
-
-    .NavBar a {
-        width: 100%;
-    } 
 
     .AboutMe, .ContactMe,{
         border-style: solid;
@@ -311,18 +312,19 @@ body {
 /*For screens of 768px width or less*/
 @media screen and (max-width: 768px) {
     .Header {
-        float: left;
         width: 100%;
     }
     
     .Name {
-        float: left;
-        width: 100%
+        display: block;
+        max-width: 21%;
+        padding: 5px;
+        padding-right: 35px;
+        padding-left: 35px;
+        position: relative;
+        bottom: 0%;
+        left: 0px;
     }
-
-    .NavBar a {
-        width: 100%;
-    } 
 
     .AboutMe, .ContactMe, .box-set {
         border-style: solid;
